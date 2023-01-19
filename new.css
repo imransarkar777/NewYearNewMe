@@ -77,7 +77,10 @@
 
 }
 
-.secondPage {}
+.secondPage {
+	height: 950px;
+	/* 800 + 950 = 1750px  */
+}
 
 .leftImage {
 	height: 723.2998046875px;
@@ -156,7 +159,8 @@
 }
 
 .thirdPage {
-	margin-bottom: 200px;
+	/* margin-bottom: 200px; */
+	height: 930px;
 }
 
 .myPlansHeading {
@@ -251,8 +255,6 @@
 
 }
 
-.thirdPage {}
-
 .bottomBanner {
 	background-image: url('images/watch.png'),
 		linear-gradient(to right,
@@ -270,8 +272,9 @@
 	height: 300px;
 	left: 230px;
 	top: 2222.26px;
-	margin-bottom: 500px !important;
-	display: flex;
+	/* margin-bottom: 500px !important; */
+	/* display: flex; */
+	flex-direction: column;
 
 	/* background-color: linear-gradient(90deg, rgb(245, 67, 3), rgba(241, 0, 0, 0)); */
 	border-radius: 8px;
@@ -297,7 +300,7 @@
 	width: 160px;
 	height: 64px;
 	margin: 177px 0 0 64px;
-	top: 1500px;
+	/* top: 1500px; */
 
 }
 
@@ -310,4 +313,134 @@
 	line-height: 23px;
 	text-align: center;
 	color: #F15B22;
+}
+
+.footer {
+	position: relative;
+	width: 1600px;
+	height: 577px;
+	left: 0px;
+
+	/*top: 2652.26px;*/
+
+	/* Dark 01 */
+
+	background: #151414;
+
+
+	display: flex;
+}
+
+.future {
+	font-family: 'Work Sans', Calibri;
+	width: 485px;
+	height: 317px;
+	left: 230px;
+	color: #FFFFFF;
+	margin: 130px auto 130px 230px;
+}
+
+.futureTitle {
+	font-family: 'Work Sans';
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 53px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.futureDesc {
+	font-family: 'Work Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	margin-top: 16px;
+	margin-bottom: 24px;
+
+}
+
+.futureEmail {
+	font-family: 'Work Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	margin-bottom: 16px;
+
+}
+
+.futurePhone {
+	font-family: 'Work Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	margin-bottom: 32px;
+}
+
+.future img {
+	margin-right: 16px;
+}
+
+.subscribe {
+	font-family: 'Work Sans';
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 230px;
+	margin-top: 130px;
+}
+
+.subscribe input {
+	padding: 21px 158px 21px 22px;
+	background-color: #151414;
+	color: #FFFFFF;
+	border-radius: 8px;
+	border: 1px solid #FFFFFF;
+	margin-bottom: 16px;
+
+	font-family: 'Work Sans';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+
+.subscribeTitle {
+
+	margin-bottom: 31px;
+}
+
+
+
+.subBtn {
+	width: 170.11px;
+	height: 64px;
+	background-color: #FFFFFF;
+	color: #F15B22;
+
+	border-radius: 8px;
+
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	/* text-align: left; */
+
 }
