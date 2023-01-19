@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* 
+.body {
+    display: flex;
+
+} */
+
+
+.banner {
+    background-image: url('images/banner/banner1.png');
+    height: 808px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right_texts {
+    text-align: right;
+    margin: 0px 230px 20px 0;
+    padding-top: 170px;
+
+}
+
+.right_texts_bold {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    margin: 9px;
+
+}
+
+.right_texts_description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn {
+    background-color: rgb(246, 91, 34);
+    border: 0;
+    color: #ffffff;
+    padding: 10px;
+    margin: 25px;
+
+
+    /* posittion below from figma */
+    /* 
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 528px; */
+}
+
+.footer {
+    height: 577px;
+    /* position: absolute; */
+    display: flex;
+}
+
+.future {
+    background-color: black;
+}
