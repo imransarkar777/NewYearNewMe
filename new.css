@@ -1,0 +1,313 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.firstPage {
+
+	background-image: url('images/banner/banner1.png');
+	width: 1600px;
+	height: 808px;
+
+}
+
+.boldTextContainer {
+	text-align: right;
+
+}
+
+.boldText {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 76px;
+	letter-spacing: 0em;
+	text-align: right;
+
+	position: absolute;
+	width: 525px;
+	height: 228px;
+	left: 845px;
+	top: 216px;
+
+
+
+
+}
+
+.description {
+
+	font-family: 'Open Sans', sans-serif;
+	height: 78px;
+	width: 494px;
+	left: 876px;
+	top: 472px;
+	border-radius: nullpx;
+
+	position: absolute;
+	width: 494px;
+	height: 78px;
+	left: 876px;
+	top: 472px;
+
+
+
+}
+
+.btn {
+	height: 64px;
+	width: 160px;
+	left: 1210px;
+	top: 578px;
+	border-radius: 5px;
+
+	position: absolute;
+	width: 160px;
+	height: 64px;
+	left: 1210px;
+	top: 578px;
+
+	background-color: #F15B22;
+
+	font-size: 20px;
+	border: 0;
+	color: #FFFFFF;
+
+}
+
+.secondPage {}
+
+.leftImage {
+	height: 723.2998046875px;
+	width: 569px;
+	left: 206px;
+	top: 939px;
+	border-radius: 0px;
+
+	background-image: url('images/person.png');
+
+	position: absolute;
+	width: 569px;
+	height: 723.3px;
+	left: 206px;
+	top: 939px;
+
+}
+
+.boldText2 {
+	/* height: 94px; */
+	/* width: 288px; */
+	/* left: 862px; */
+	/* top: 1178px; */
+	border-radius: 0;
+
+	position: absolute;
+	width: 288px;
+	height: 94px;
+	left: 862px;
+	top: 1178px;
+
+	font-family: 'Work Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 47px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.boldText2Description {
+	position: absolute;
+	width: 416px;
+	height: 104px;
+	left: 862px;
+	top: 1296px;
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+
+	/* Dark 02 */
+
+	color: #444343;
+}
+
+.secondRightText_List {
+	position: absolute;
+	width: 349px;
+	height: 162px;
+	left: 862px;
+	top: 1416px;
+}
+
+.secondRightText_List li {
+	list-style-type: none;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #444343;
+
+}
+
+.thirdPage {
+	margin-bottom: 200px;
+}
+
+.myPlansHeading {
+	/* My Plans */
+
+
+	position: absolute;
+	width: 179px;
+	height: 47px;
+	left: 711px;
+	top: 1792.3px;
+
+	font-family: 'Work Sans';
+	/* font-style: normal; */
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	/* identical to box height */
+
+
+	/* Dark 01 */
+
+	color: #151414;
+}
+
+.card1 {
+	position: absolute;
+	width: 270px;
+	height: 191.26px;
+	left: 230px;
+	top: 1901px;
+	text-align: center;
+}
+
+.card2 {
+	position: absolute;
+	width: 181px;
+	height: 191.3px;
+	left: 586px;
+	top: 1895px;
+	text-align: center;
+}
+
+.card3 {
+	position: absolute;
+	width: 218px;
+	height: 197px;
+	left: 853px;
+	top: 1889.3px;
+	text-align: center;
+}
+
+.card4 {
+	position: absolute;
+	width: 214px;
+	height: 197px;
+	left: 1157px;
+	top: 1889.3px;
+	text-align: center;
+}
+
+.cardContainer .title {
+	/* position: absolute; */
+	/* width: 270px; */
+	/* height: 35px; */
+	/* left: 230px; */
+	/* top: 2012.26px; */
+
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+
+	/* Dark 01 */
+
+	color: #151414;
+}
+
+.cardContainer .desc {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+
+	/* Dark 03 */
+
+	color: #737272;
+
+}
+
+.thirdPage {}
+
+.bottomBanner {
+	background-image: url('images/watch.png'),
+		linear-gradient(to right,
+			rgb(251, 103, 35) 0%,
+			rgba(251, 108, 30, 0.86) 25%,
+			rgba(251, 115, 35, 0.6) 45%,
+			rgba(251, 120, 71, 0.5) 60%,
+			rgba(251, 130, 60, 0.4) 70%,
+			rgba(251, 151, 150, 0.3) 80%,
+			rgba(251, 180, 200, 0.146) 90%,
+			rgba(251, 255, 235, 0.1) 95%,
+			rgba(0, 0, 0, 0) 100%);
+	position: absolute;
+	width: 1140px;
+	height: 300px;
+	left: 230px;
+	top: 2222.26px;
+	margin-bottom: 500px !important;
+	display: flex;
+
+	/* background-color: linear-gradient(90deg, rgb(245, 67, 3), rgba(241, 0, 0, 0)); */
+	border-radius: 8px;
+	background-blend-mode: soft-light;
+
+
+	display: flex;
+}
+
+.bannerText {
+	font-family: 'Work Sans', serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	color: #FFFFFF;
+	margin: 59px 617px 147px 64px;
+
+
+}
+
+.bannerBtn {
+	position: absolute;
+	width: 160px;
+	height: 64px;
+	margin: 177px 0 0 64px;
+	top: 1500px;
+
+}
+
+.bannerBtnText {
+	/* work sans is not working  */
+	font-family: 'Work Sans', Calibri;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #F15B22;
+}
